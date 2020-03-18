@@ -1,0 +1,32 @@
+{
+  "name": "wfh-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "npx tsc && npx nodemon ./dist & npx tsc --preserveWatchOutput -w",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.30",
+    "@types/cors": "^2.8.6",
+    "@types/pg": "^7.14.3",
+    "@types/uuid": "^7.0.2",
+    "@types/validator": "^12.0.1",
+    "applicationinsights": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5",
+    "uuid": "^7.0.2"
+  }
+}
